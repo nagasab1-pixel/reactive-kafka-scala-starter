@@ -1,0 +1,11 @@
+# Default behavior
+# Language detection rules
+# Text file normalization
+public/*.html linguist-vendored
+*.yml linguist-detectable=false
+src/*.ts linguist-detectable
+*.gif binary
+package-lock.json linguist-generated 
+src/**/*.tsx linguist-detectable
+*.jpg binary
+go.sum linguist-generated
